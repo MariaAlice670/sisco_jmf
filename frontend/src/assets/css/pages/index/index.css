@@ -1,0 +1,104 @@
+  /* Reset global */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ebe1e1, #ebe0e0);
+    color: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(to right, #0c8d38, #31c27c);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.welcome {
+    text-align: left;
+    padding: 20px;
+    flex: 1;
+}
+
+.login-box {
+    background: #2b2b2b;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    width: 320px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-box h3 {
+    background: #31c27c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    background: linear-gradient(to right, rgb(255, 94, 0), rgb(200, 70, 0));
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, rgb(200, 70, 0), rgb(160, 50, 0));
+}
